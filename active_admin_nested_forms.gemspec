@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.email = ["stjepan_vrljicak@yahoo.co.uk"]
 
   spec.summary = "Gem that overrides normal active admin nested forms behaviour."
-  spec.homepage = "https://slobodnadomena.hr/"
+  spec.homepage = "https://github.com/StjepanSD/activeadmin_nested_forms"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "https://slobodnadomena.hr/"
+  spec.metadata["allowed_push_host"] = "https://github.com/StjepanSD/activeadmin_nested_forms"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://slobodnadomena.hr/"
-  spec.metadata["changelog_uri"] = "https://slobodnadomena.hr/"
+  spec.metadata["source_code_uri"] = "https://github.com/StjepanSD/activeadmin_nested_forms"
+  spec.metadata["changelog_uri"] = "https://github.com/StjepanSD/activeadmin_nested_forms"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
