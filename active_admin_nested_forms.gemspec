@@ -5,7 +5,7 @@ require_relative "lib/active_admin_nested_forms/version"
 Gem::Specification.new do |spec|
   spec.name = "active_admin_nested_forms"
   spec.version = ActiveAdminNestedForms::VERSION
-  spec.authors = ["Slobodna Domena Zadruga za otverni kod i dizajn"]
+  spec.authors = ["Slobodna Domena Zadruga za otvorni kod i dizajn"]
   spec.email = ["stjepan_vrljicak@yahoo.co.uk"]
 
   spec.summary = "Gem that overrides normal active admin nested forms behaviour."
