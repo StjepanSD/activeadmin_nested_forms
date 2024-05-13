@@ -28,8 +28,11 @@ and add the following css to your application.css file:
 
 If you're using selectize.js, you will need to use `select-beast` class on the selectize input in order for it to be initialized in the dialog.
 
-This gem has datetime picker support while using [active_adminv_datetimepicker](https://github.com/activeadmin-plugins/active_admin_datetimepicker) gem.
+This gem has datetime picker support while using input fields with class `datetimepicker`. The following example shows how to use it:
 
+    $ f.input :field, type: string, input_html: { class: "datetimepicker"}
+
+You need to have jQuery for both selectize and datetimepicker support.
 
 ## Contributing
 
