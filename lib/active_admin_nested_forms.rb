@@ -5,6 +5,8 @@ require 'active_admin_nested_forms/forms'
 require_relative "active_admin_nested_forms/version"
 
 module ActiveAdminNestedForms
-  class Error < StandardError; end
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end

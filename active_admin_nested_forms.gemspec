@@ -32,6 +32,9 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "activeadmin"
+  spec.add_dependency "rails"
+  spec.add_dependency "sass"
+  spec.add_dependency "sass-rails"
   spec.add_development_dependency "rspec"
 
   # For more information and examples about making a new gem, check out our
