@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'active_admin_nested_forms/forms'
-
+require 'rails'
 require_relative "active_admin_nested_forms/version"
 
 module ActiveAdminNestedForms

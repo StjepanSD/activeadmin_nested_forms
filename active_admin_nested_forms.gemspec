@@ -5,7 +5,7 @@ require_relative "lib/active_admin_nested_forms/version"
 Gem::Specification.new do |spec|
   spec.name = "active_admin_nested_forms"
   spec.version = ActiveAdminNestedForms::VERSION
-  spec.authors = ["Slobodna Domena Zadruga za otvorni kod i dizajn"]
+  spec.authors = ["Slobodna Domena Zadruga za otvoreni kod i dizajn"]
   spec.email = ["stjepan_vrljicak@yahoo.co.uk"]
 
   spec.summary = "Gem that overrides normal active admin nested forms behaviour."
@@ -33,10 +33,7 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "activeadmin"
   spec.add_dependency "rails"
-  spec.add_dependency "sass"
-  spec.add_dependency "sass-rails"
   spec.add_development_dependency "rspec"
-
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end

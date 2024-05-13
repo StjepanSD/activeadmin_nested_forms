@@ -1,7 +1,6 @@
 # ActiveAdminNestedForms
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/active_admin_nested_forms`. To experiment with that code, run `bin/console` for an interactive prompt.
-
+This gem reorganizes nested resources and forms in [ActiveAdmin](https://activeadmin.info/) gem. It creates collapsible forms and shows dialogs on creation of new resources.
 
 ## Installation
 
@@ -15,12 +14,18 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
+Add javascript to your application.js file:
 
-## Development
+    $ //= require activeadmin_nested_forms
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+and add the following css to your application.css file:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ *= require activeadmin_nested_forms
+
+If you're using selectize.js, you will need to use `select-beast` class on the selectize input in order for it to be initialized in the dialog.
+
+This gem has datetime picker support while using [active_adminv_datetimepicker](https://github.com/activeadmin-plugins/active_admin_datetimepicker) gem.
+
 
 ## Contributing
 
