@@ -1,3 +1,7 @@
+# IMPORTANT
+
+This gem is still under heavy development and testing. It is not recommended to use it until we relase a stable version.
+
 # ActiveAdminNestedForms
 
 This gem reorganizes nested resources and forms in [ActiveAdmin](https://activeadmin.info/) gem. It creates collapsible forms and shows dialogs on creation of new resources.
