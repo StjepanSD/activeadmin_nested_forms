@@ -73,6 +73,18 @@ $(document).ready(function () {
       },
       close: function () {
         $("#dialog-form").remove()
+      },
+      open: function () {
+        console.log("opened")
+        $(".select-beast").selectize();
+        var options =  {
+          formatDate: 'y-m-d',
+          format: 'Y-m-d H:i',
+          allowBlank: true,
+          defaultSelect: false,
+          validateOnBlur: false
+        }
+        $(".date-time-picker").datetimepicker({});
       }
     });
 
@@ -86,7 +98,6 @@ $(document).ready(function () {
     });
 
     dialog.dialog("open");
-    $(".select-beast").selectize();
   })
 
 });
